@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import Main from "./routes/main";
 import MyJYP from "./routes/my-JYP";
 import SaleJYP from "./routes/sale-JYP";
+import axios from 'axios';
 
 const App: FC = () => {
   const [account, setAccount] = useState<string>("");

@@ -6,6 +6,7 @@ import {
   web3,
 } from "../web3Config";
 import JYPCard from "./JYPCard";
+import axios from 'axios';
 
 interface SaleJYPCardProps {
   JYPType: string;

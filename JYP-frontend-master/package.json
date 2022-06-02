@@ -13,7 +13,10 @@
     "@types/node": "^16.11.19",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "axios": "^0.27.2",
+    "body-parser": "^1.17.1",
     "framer-motion": "^5.5.5",
+    "public": "^0.1.5",
     "react": "^17.0.2",
     "react-app-rewired": "^2.1.11",
     "react-dom": "^17.0.2",
@@ -47,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "",
+  "main": "config-overrides.js",
+  "author": "",
+  "license": "ISC"
 }

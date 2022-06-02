@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import React, { ChangeEvent, FC, useState } from "react";
 import { saleJYPTokenContract, web3 } from "../web3Config";
-
+import axios from 'axios';
 import JYPCard from "./JYPCard";
 
 export interface IMyJYPCard {

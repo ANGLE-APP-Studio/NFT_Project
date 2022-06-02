@@ -2,6 +2,7 @@ import React, { FC, useState } from "react";
 import { Box, Text, Flex, Button } from "@chakra-ui/react";
 import { mintJYPTokenContract } from "../web3Config";
 import JYPCard from "../components/JYPCard";
+import axios from 'axios';
 
 interface MainProps {
   account: string;

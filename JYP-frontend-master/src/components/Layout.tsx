@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { Stack, Flex, Box, Text, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import axios from 'axios';
 
 const Layout: FC = ({ children }) => {
   return (

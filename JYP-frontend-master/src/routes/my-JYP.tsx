@@ -6,6 +6,7 @@ import {
   saleJYPTokenAddress,
   saleJYPTokenContract,
 } from "../web3Config";
+import axios from 'axios';
 
 interface MyJYPProps {
   account: string;
