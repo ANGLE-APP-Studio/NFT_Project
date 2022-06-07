@@ -94,6 +94,7 @@ export const StyledLink = styled.a`
   text-decoration: none;
 `;
 
+
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -193,6 +194,7 @@ function App() {
     getData();
   }, [blockchain.account]);
 
+  
   return (
     <s.Screen>
       <s.Container
