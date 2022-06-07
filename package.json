@@ -1,43 +1,25 @@
 {
-  "name": "web3-boilerplate",
-  "version": "0.1.0",
+  "name": "hashlips_nft_minting_dapp",
+  "version": "1.0.0",
+  "description": "HashLips minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "^1.7.4",
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.19",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "axios": "^0.27.2",
-    "body-parser": "^1.17.1",
-    "framer-motion": "^5.5.5",
-    "public": "^0.1.5",
     "react": "^17.0.2",
-    "react-app-rewired": "^2.1.11",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^2.1.3",
-    "typescript": "^4.5.4",
-    "web-vitals": "^2.1.2",
-    "web3": "^1.6.1",
-    "web3-utils": "^1.6.1"
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2"
   },
+  "author": "Daniel Eugene Botha (HashLips)",
+  "license": "MIT",
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "CI= react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "browserslist": {
     "production": [
@@ -50,9 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "",
-  "main": "config-overrides.js",
-  "author": "",
-  "license": "ISC"
+  }
 }
